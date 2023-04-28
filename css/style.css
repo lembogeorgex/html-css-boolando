@@ -39,7 +39,6 @@ Red: #FF0000
 .container{
     width: 1200px;
     margin: 0 auto;
-    
 }
 
 header{
@@ -51,13 +50,36 @@ right: 0;
 }
 
 
-
+main{
+    background-color: purple;
+}
 nav, .symbols{
     width: 25%;
     height: 50px;
+    border: 1px dashed blue;
+    background-color: #008001;
+
 }
 
 .logo{
     width: 50%;
     height: 50px;
+    border: 1px dashed blue;
+    background-color: #008001;
 }
+
+/* Main */
+
+
+.flexcard-settings{
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.card{
+    background-color: gray;
+    width: calc(100% / 3 - 15px);
+    height: 400px;
+    border: 1px dashed blue;
+    
+}
+
