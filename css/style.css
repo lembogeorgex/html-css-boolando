@@ -11,7 +11,6 @@ body {
     font-family: sans-serif;
 }
 
-
 li {
     list-style-type: none;
     display: inline;
@@ -23,19 +22,17 @@ li a {
     font-weight: bold;
 }
 
-
 /* Color Palette
 Orange: #FF6800
 Green: #008001
 Red: #FF0000
 */
 
-
 /* Custom Properties */
 :root {
-    --orange: #FF6800;
+    --orange: #ff6800;
     --green: #008001;
-    --red: #FF0000;
+    --red: #ff0000;
     --xs: 5px;
     --sm: 10px;
     --md: 20px;
@@ -43,7 +40,6 @@ Red: #FF0000
     --xl: 40px;
     --xxl: 50px;
 }
-
 
 /* Utilities */
 .flex {
@@ -66,13 +62,9 @@ header {
     z-index: 1;
 }
 
-
-
-
 nav,
 .symbols {
     width: calc(100% / 3);
-
 }
 
 .gender {
@@ -98,13 +90,6 @@ nav,
     cursor: pointer;
 }
 
-/* Main */
-
-main {
-    background-color: purple;
-}
-
-
 /* Card */
 
 .flexcard-settings {
@@ -120,7 +105,6 @@ main {
     background-color: gray;
     border: 1px dashed blue;
     position: relative;
-
 }
 
 .card img {
@@ -155,14 +139,19 @@ main {
     cursor: pointer;
 }
 
-
 .tag {
     padding: 5px;
     color: white;
     display: inline-block;
     position: absolute;
     font-weight: bold;
-    font-size: 15px
+    font-size: 15px;
+}
+
+.onlysust {
+    background-color: var(--green);
+    left: 0px;
+    bottom: 20px;
 }
 
 .discount {
@@ -179,14 +168,13 @@ main {
 
 /* Footer */
 footer {
-    background-color: #1A1A1A;
+    background-color: #1a1a1a;
     color: white;
-    margin-top: 50px
+    margin-top: 50px;
 }
 
 .faq,
 .social {
     width: calc(100% / 2);
     height: 50px;
-
 }
