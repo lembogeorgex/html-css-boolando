@@ -103,7 +103,6 @@ nav,
 
 .card {
     background-color: gray;
-    border: 1px dashed blue;
     position: relative;
 }
 
@@ -122,6 +121,24 @@ nav,
 
 .old-price {
     text-decoration: line-through;
+}
+
+
+.none {
+    display: none;
+}
+
+
+.card:hover .visible {
+    display: none
+}
+
+.card:hover .none {
+    display: block
+}
+
+.card:hover {
+    cursor: pointer;
 }
 
 /* Positioned elements */
