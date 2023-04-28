@@ -41,8 +41,10 @@ Red: #FF0000
     margin: 0 auto;
 }
 
+/* Header */
 header{
 background-color: var(--orange);
+color: white;
 position: fixed;
 top: 0;
 left:0;
@@ -50,11 +52,9 @@ right: 0;
 }
 
 
-main{
-    background-color: purple;
-}
+
 nav, .symbols{
-    width: 25%;
+    width: calc(100% / 3);
     height: 50px;
     border: 1px dashed blue;
     background-color: #008001;
@@ -62,7 +62,7 @@ nav, .symbols{
 }
 
 .logo{
-    width: 50%;
+    width: calc(100% / 3);
     height: 50px;
     border: 1px dashed blue;
     background-color: #008001;
@@ -70,6 +70,9 @@ nav, .symbols{
 
 /* Main */
 
+main{
+    background-color: purple;
+}
 
 .flexcard-settings{
     flex-wrap: wrap;
@@ -83,3 +86,16 @@ nav, .symbols{
     
 }
 
+
+/* Footer */
+footer{
+    background-color: #1A1A1A ;
+    color: white;
+    margin-top: 50px
+}
+
+.faq, .social{
+    width: calc(100% / 2);
+    height: 50px;
+
+}
