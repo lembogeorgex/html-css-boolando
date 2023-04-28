@@ -8,6 +8,7 @@
 /* Generics */
 body{
     padding-top: 100px;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 
@@ -68,9 +69,6 @@ right: 0;
 
 nav, .symbols{
     width: calc(100% / 3);
-    height: 50px;
-    border: 1px dashed blue;
-    background-color: #008001;
 
 }
 
@@ -81,16 +79,20 @@ nav, .symbols{
 
 .logo{
     width: calc(100% / 3);
-    height: 50px;
-    border: 1px dashed blue;
-    background-color: #008001;
-    display: flex;
+min-height: 50px;
     justify-content: center;
     align-items: center;
 }
 
 .logo img{
     max-width: 100px;
+}
+
+.symbols{
+    justify-content:flex-end;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
 }
 /* Main */
 
