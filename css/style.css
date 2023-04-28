@@ -84,8 +84,14 @@ nav, .symbols{
     height: 50px;
     border: 1px dashed blue;
     background-color: #008001;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.logo img{
+    max-width: 100px;
+}
 /* Main */
 
 main{
