@@ -1,5 +1,63 @@
+/* Reset */
 *{
     margin: 0;  
     padding: 0; 
     box-sizing: border-box;
+}
+
+/* Generics */
+body{
+    padding-top: 100px;
+}
+
+/* Color Palette
+Orange: #FF6800
+Green: #008001
+Red: #FF0000
+*/
+
+
+/* Custom Properties */
+:root{
+--orange: #FF6800;
+--green: #008001;
+--red:#FF0000;
+--xs: 5px;
+--sm: 10px;
+--md: 20px;
+--lg: 30px;
+--xl: 40px;
+--xxl: 50px;    
+}
+
+
+/* Utilities */
+.flex{
+    display: flex;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+
+header{
+background-color: var(--orange);
+position: fixed;
+top: 0;
+left:0;
+right: 0;
+}
+
+
+
+nav, .symbols{
+    width: 25%;
+    height: 50px;
+}
+
+.logo{
+    width: 50%;
+    height: 50px;
 }
