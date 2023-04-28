@@ -10,6 +10,18 @@ body{
     padding-top: 100px;
 }
 
+
+li{
+    list-style-type: none;
+    display: inline;
+}
+
+li a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+
 /* Color Palette
 Orange: #FF6800
 Green: #008001
@@ -53,12 +65,18 @@ right: 0;
 
 
 
+
 nav, .symbols{
     width: calc(100% / 3);
     height: 50px;
     border: 1px dashed blue;
     background-color: #008001;
 
+}
+
+.gender{
+    align-items: center;
+    gap: 10px;
 }
 
 .logo{
