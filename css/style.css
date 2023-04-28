@@ -16,7 +16,7 @@ li {
     display: inline;
 }
 
-li a {
+.header-list a {
     text-decoration: none;
     color: currentColor;
     font-weight: bold;
@@ -123,18 +123,16 @@ nav,
     text-decoration: line-through;
 }
 
-
 .none {
     display: none;
 }
 
-
 .card:hover .visible {
-    display: none
+    display: none;
 }
 
 .card:hover .none {
-    display: block
+    display: block;
 }
 
 .card:hover {
@@ -187,11 +185,50 @@ nav,
 footer {
     background-color: #1a1a1a;
     color: white;
-    margin-top: 50px;
+    margin-top: 20px;
+    min-height: 100px;
 }
+
+/* Perchè la min-height?! */
 
 .faq,
 .social {
-    width: calc(100% / 2);
+    width: 50%;
     height: 50px;
+    padding-top: 10px;
+    display: inline;
+}
+
+.faq ul {
+    display: inline;
+    font-weight: 100;
+}
+
+.faq h4 {
+    padding-top: 20px;
+}
+
+.faq li a {
+    text-decoration: none;
+    color: currentColor;
+    font-size: 0.8rem;
+    padding-right: 5px;
+    line-height: 40px;
+}
+
+.footer-symbols {
+    align-items: end;
+    justify-content: flex-end;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.social h4 {
+    display: inline;
+}
+
+.follow-us {
+    padding-top: 20px;
+    justify-content: flex-end;
+    padding-bottom: 10px;
 }
