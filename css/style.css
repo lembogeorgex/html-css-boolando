@@ -123,6 +123,7 @@ nav,
     text-decoration: line-through;
 }
 
+/* Display toggle */
 .none {
     display: none;
 }
@@ -169,6 +170,7 @@ nav,
     bottom: 20px;
 }
 
+/* Correggere : mettere i due badges all'interno di una class, rendendoli due span e dunque piu manutenibili. */
 .discount {
     background-color: red;
     bottom: 20px;

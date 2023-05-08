@@ -51,13 +51,20 @@
         <div class="card-container">
           <div class="card">
             <div class="card-image">
+              <!-- Impossibilità a mettere la classe direttamente alle img. -->
+              <!-- Riga 109 display block -->
+              <!-- Riga 127 display none -->
               <div class="visible">
-                <img src="img/1.webp" alt="" />
+                <img src="img/1.webp" alt="" class="visible" />
               </div>
               <div class="none">
-                <img src="img/1b.webp" alt="" />
+                <img src="img/1b.webp" alt="" class="none" />
               </div>
+
               <div class="favourite"><span class="red-ico">&hearts;</span></div>
+
+              <!-- Correggere : mettere i due badges all'interno di una class, rendendoli due span e dunque piu manutenibili. -->
+
               <div class="discount tag">-50%</div>
               <div class="sustainable tag">Sostenibilità</div>
             </div>
